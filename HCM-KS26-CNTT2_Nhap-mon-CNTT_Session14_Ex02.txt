@@ -1,0 +1,7 @@
+Bài 2 : Ngăn chặn rò rỉ dữ liệu do chia sẻ sai quyền
+Phần 1 (Phân tích):
+- vi phạm "Quy tắc Cờ Đỏ Bảo mật" vì An đã chọn chế độ "Anyone with the link" thì bất kỳ người lạ nào nhấp vào liên kết đều đọc được dữ liệu nội bộ của doanh nghiệp mà không cần xác thực danh tính cá nhân kết hợp với quyền Editor thì kẻ xấu có quyền chỉnh sửa và ăn cắp làm lộ thông tin của An.
+Phần 2 : Thiết lập lại cấu trúc phân quyền chuẩn cho An: 
+-Mức quyền cho cộng tác viên phù hợp nhất là Viewer, còn Commenter nếu trường hợp đặc biệt như sai sót dữ liệu thì báo cáo cho An để cập nhật dữ liệu
+-Chia sẻ thủ công theo từng Email/gmail của mỗi người thông qua cloud như gg drive, gmail.com, one drive ,... để đảm bảo an toàn dữ liệu
+-Tắt quyền "Editors can change permissions and share" (Người chỉnh sửa có thể thay đổi quyền và chia sẻ), bật tùy chọn giới hạn: "Disable options to download, print, and copy for commenters and viewers" chặn người xem/người chỉnh sửa thông thường tự ý chia sẻ tài liệu cho người khác.
